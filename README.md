@@ -25,14 +25,16 @@ banking_system/
 
 ⚙️ Account Types
 <table>
+<th>
 <td>Account</td>
 <td>Special Rule</td>
-<tr>Savings</tr>
-<tr>6% interest added on every deposit<tr><br>
-<tr>Current</tr>
-<tr>Max 10 withdrawals per session</tr><br>
-<tr>Trust</tr>
-<tr>8% tax deducted on every withdrawal</tr>
+</th>
+<td><tr>Savings</tr>
+<tr>6% interest added on every deposit<tr></td><br>
+<td><tr>Current</tr>
+<tr>Max 10 withdrawals per session</tr></td><br>
+<td><tr>Trust</tr>
+<tr>8% tax deducted on every withdrawal</tr></td>
 </table>
 
 🗄️ Database Schema
