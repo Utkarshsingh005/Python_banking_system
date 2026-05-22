@@ -23,18 +23,32 @@ banking_system/
 ├── .env             # Secret credentials (not pushed to GitHub)
 └── .gitignore
 
-⚙️ Account Types
 <table>
-<th>
-<td>Account</td>
-<td>Special Rule</td>
-</th>
-<td><tr>Savings</tr>
-<tr>6% interest added on every deposit<tr></td><br>
-<td><tr>Current</tr>
-<tr>Max 10 withdrawals per session</tr></td><br>
-<td><tr>Trust</tr>
-<tr>8% tax deducted on every withdrawal</tr></td>
+<caption>⚙️ Account Types</caption>
+
+<thead>
+<tr>
+<th>Account</th>
+<th>Special Rule</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Savings</td>
+<td>6% interest added on every deposit</td>
+</tr>
+
+<tr>
+<td>Current</td>
+<td>Max 10 withdrawals per session</td>
+</tr>
+
+<tr>
+<td>Trust</td>
+<td>8% tax deducted on every withdrawal</td>
+</tr>
+</tbody>
 </table>
 
 🗄️ Database Schema
