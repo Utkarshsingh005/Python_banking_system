@@ -34,3 +34,22 @@ banking_system/
 <tr>Trust</tr>
 <tr>8% tax deducted on every withdrawal</tr>
 </table>
+
+🗄️ Database Schema
+CREATE TABLE Accounts (
+    Account_number INT PRIMARY KEY,
+    Name           VARCHAR(100),
+    Age            INT,
+    Account_type   VARCHAR(20),
+    PAN_number     VARCHAR(20),
+    Balance        DECIMAL(10,2)
+);
+
+CREATE TABLE Transactions (
+    id                 INT PRIMARY KEY AUTO_INCREMENT,
+    Account_number     INT,
+    Account_type       VARCHAR(10),
+    Amount_Debited     FLOAT,
+    Amount_Credited    FLOAT
+    created_at         TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
