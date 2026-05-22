@@ -69,3 +69,15 @@ CREATE TABLE Transactions (
     Amount_Credited    FLOAT
     created_at         TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+📋 Requirements
+Python 3.10+
+MySQL Server
+mysql-connector-python
+python-dotenv
+
+🛠️ Built With
+Python
+MySQL
+OOP (Inheritance, Encapsulation, Class methods)
